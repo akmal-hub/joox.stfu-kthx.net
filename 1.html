@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <script type="text/javascript">
+       // Created by kimo Android
+       
+       var string = "Happy 6 Moon , Gak kerasa sudah setengah tahun kita bersama,Semoga lebih Baik kedepannya Aamiin...Mungkin itu Aja hehe, Kalau Abng ada salah ke ndek maaf yee:)";
+       var index = 0, iv;
+       
+       onload = function() {
+       iv = setInterval(write, 30);
+       }
+       
+       function write() {
+       div = document.getElementById("kimo");
+       div.innerHTML += string[index];
+       index++;
+       if(index >= string.length)
+       clearInterval(iv);
+       }
+      
+       </script>
+       <style type="text/css">
+      
+       html{
+       text-align:center;
+       background:black;
+       color:white;
+       font-family: 'Langar', cursive;
+       }
+       footer{
+       border:3px red solid;
+       border-radius:22px;
+       color:white;
+       text-align:center;
+       box-shadow:0px 0px 15000px red;
+       font-family: 'Langar', cursive;
+       font-size:19px;
+       background:black
+       }
+       
+       button{
+       border:3px solid red;
+       border-radius:12px;
+       color:white;
+       width:700px;
+       font-family: 'Langar', cursive;
+       background:black;
+       padding:3%;
+       font-size:21px;
+       box-shadow:0px 0px 100px red;
+       }
+       
+       </style>
+       <link rel="preconnect" href="https://fonts.gstatic.com">
+       <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+        <title>14 Juni 2020</title>
+    </head>
+    <body><br><br><br><br><br><br><br><br>
+    <img src="https://i.postimg.cc/ydMNWzdK/oklar.gif" width="800">
+      <footer><font>MESSAGE</font>  <div id="kimo"></div></footer>
+    <img src="https://i.postimg.cc/ydMNWzdK/oklar.gif" width="800">
+    <br><br><br><br><br><br><br><br><br><br>
+    <button onclick="alert('PESEK ~>'), alert('JENONG ~>'), alert('PENDEK ~>'), alert('AWKKAWOK:b')">Click Me Dear:D</button>
+    
+    </body>
+</html>
