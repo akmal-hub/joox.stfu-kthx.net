@@ -84,5 +84,5 @@ alert('STEP BY STEP PERTAMA KLICK "CLICK ME" NEXT TEKAN BUTTON YG ADA DI BAWAH')
     <button onclick="toggle(2);">Click Me!</button>
     <footer><h1><p id="ids"></p></h1></footer>
     <a href="1.html" ><button class="ut">TEKAN DISINI UNTUK MELIHAT PESAN</button></a>
-</body>
-</html>
+
+
